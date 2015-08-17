@@ -11,3 +11,4 @@ Then the the paper gives an evaluation on DARGOS:
   <li>DARGOS and Lattice scalability: DARGOS outperforms Lattice because of the lower size of DAGOS message.</li>
 </ol>
 
+Finally, the papers gives a real use case of DARGOS in cloud. The authors compare the node CPU usage of the nodes which use two different consolidation stratigies or not use any. And that proves cloud administrator or tenants can make decisions and trigger prompt control actions according specific cloud requirements.
