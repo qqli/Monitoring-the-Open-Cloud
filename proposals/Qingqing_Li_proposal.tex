@@ -1,0 +1,172 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{biblatex}
+
+%SetFonts
+
+%SetFonts
+
+
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+	\textsc{\LARGE Boston University}\\
+	[5mm]
+	\textsc{\Large College of Engineering}\\
+	[5mm]
+	\textsc{\Large Department of Electrical and Computer Engineering}\\
+	[2cm]
+	\huge{\bfseries Data Monitoring in Massachusetts Open Cloud}\\
+	[2cm]
+	\textsc{\large MS Project Proposal}\\
+	[2cm]
+	\textsc{\large Student: Qingqing Li, U20626734}\\
+	[5mm]
+	\textsc{\large Advisor: Professor Orran Krieger}\\
+	[5mm]
+	
+	
+	\end{center}
+	
+\end{titlepage}
+
+\section{Content}\label{sec: content}
+1. Abstract\\
+2. Problem Statement\\
+3. Prior Work\\
+4. Approach\\
+5. Plan and Schedule\\
+6. Reference\\
+
+\section{Abstract}\label{sec:abstract}
+
+Cloud computing has many intrinsic advantages  as well as some challenges, such as performance unpredictability. Public cloud that is usually owned by a single provider, is rather opaque to users. It does not provide information hardware level information for users, which restricts users decision making when experimenting in clouds. This kind of data can only be obtained through monitoring the cloud and carefully retaining of the data. We will use Massachusetts Open Cloud (MOC) as our cloud environment. MOC is the first cloud that aims to let many vendor to participate in a cloud, in which monitoring can be more meaningful because in MOC environment users will have more control over what resource they want to have and more choices, such as brands. We propose that by exposing some extent of data to users can help them to make wise choices. However, cloud monitoring also leaves many challenges. In our project, we need to explore what data to be collected, evaluate different data collecting tools and evaluate databases. Then we will create a data visualization tool for users, which will show connections and conditions of physical system and a mapping between virtual and physical resources.
+\section{Problem Statement}
+
+	Cloud computing, as a new industry with increasing number of users, has many intrinsic advantages. With clouds, developers with innovative ideas can try out their new services, without investing in huge amounts of hardwares [1]. It is also claimed that cloud computing gives users the illusion of infinite computing resources available on demand and allows users to pay for the use of computing resources on a short-term basis as needed [1]. However, there are still some challenges for cloud computing, such as performance unpredictability, data transfer bottlenecks, scalability, which can lead to difficulties in guarantee SLAs. 
+	
+	
+	Public clouds are still opaque to users. Cloud providers do not provide users with any information about the underlying hardware infrastructure of public clouds, thus promising users the illusion of ideal virtual machines. On the contrary, those virtual machines are far from ideal, performance is hardly predictable. Michael Conley et al. [17] state in their paper  that they conduct a series of experiments in order to understand the scaling behavior of virtualized cloud network and storage resources. Far from getting a satisfactory result, they spent 50,000 dollars getting a result that is highly that may not be repeated. If researchers in [17] are provided with sufficient operational data of physical system  or other experimental results of clouds, less effort and less cost would be spent for similar series of experiments.
+	
+	
+	Despite from performance unpredictability of clouds, cloud providers also hide network bandwidth information from users. As many applications are bandwidth sensitive, such as a video streaming application, users may have a job finished much longer in a congested network than in a network that is free. But they are unaware of whether their network is congested or idle, making choices only based on feelings. 
+	
+	
+	Even though clouds have many challenges and clouds need to be monitored as stated above, most public clouds, which usually run by a single vendor, hide their operational data from users of the clouds. The Open Cloud Exchange (OCX) is envisioned as a public cloud marketplace in which many stakeholders, rather than just a single provider, participate in implementing and operating the cloud [3]. It is also envisioned that cloud?s operational data can be exposed to researchers for their studies. Massachusetts Open Cloud (MOC) is an experiment environment of OCX, many vendors, such as Dell, Lenovo, and Intel, participate in this project. MOC is the first open cloud that users can use, and potential researchers can do research with resourceful information. As MOC intend to expose data to researchers as well as users, cloud monitoring is also a must in MOC. In addition, with vendors providing many services, MOC is a place that can give users more choices, including brands, performance, price, energy efficiency and so on. Those choices are only realizable if we provide a monitoring solution to MOC. 
+	
+	
+	In addition to the monitoring motivation that is triggered by the opacity of current public clouds, cloud providers must monitor the cloud in order to guarantee SLAs. Service provisioning in the Cloud is based on Service Level Agreements(SLAs), which states the term of the service including the quality of service (QoS), obligations, service pricing, and penalties in case of agreement violations[16]. However, cloud environments, being complicated, can be modeled in seven layers: facility, network, hardware, OS, middleware, application, and the user[15]. Traditional monitoring tools cannot be applied to cloud environments, which stress the need of cloud monitoring.
+	
+	
+	Cloud monitoring can be divided into high-level monitoring and low-level monitoring[15]. Most of the clouds that provide monitoring services only give high-level monitored information, which is the virtual system of the cloud. Low-level monitoring, which can be considered as the monitoring of clouds? physical system, is often not provided to consumers. 
+	
+	
+	Based on the needs of cloud monitoring and the opacity of clouds that hinders users experience of clouds, we propose that exposing operational data of the cloud in a readable, organized and meaningful way can help users in making decisions. However, there are still many challenges for monitoring of the cloud. First, how to collect information from all the different sources in a scalable fashion without impacting the performance of the components being monitored. Second, how to retain the information in a form amenable to analysis. Third, how to expose the information in a way that will maintain the privacy of the cloud users. Fourth, how to make the use of that information in various research projects.
+	
+	
+	This masters project will take first steps towards addressing these challenges. It will mainly focus on the low-level monitoring and come up with a basic set of data to be collected and instrument the MOC to collect that information. It will also evaluate different technologies for collecting and storing the information. As a use case, we will provide a visualization tool for users to access the monitored data in order to make wise choices. 
+
+\section {Prior Work}
+
+For commercial platforms, some of the major companies such as Amazon and Microsoft, already provide monitoring services. CloudWatch, a monitoring service provided by Amazon, only have services of monitoring virtual resources such as EC2 [2]. Amazon does not provide low-level information (physical machines? information). AzureWatch, provided by Microsoft, also does not provide the monitoring information of low-level cloud. 
+
+
+	For open source platforms, there are some monitoring tools focusing on different aspects of cloud computing infrastructures. As I focus on monitoring physical system of the cloud, I explored some monitoring tools that monitor physical systems. Nagios [6] is a widely-used enterprise-level open source monitoring tool that can monitor cloud?s physical machines. Sandoval et cl.[7] analyze several already available monitoring tools, such as Nagios, HypericHQ, Lattice, Zenoss, and indicate that Nagios is the best choice. 
+	
+	
+	Sensu[8] is designed as a publish/subscribe based monitoring tool that can deal with some of the problems that Nagios cannot solve. In Nagios, there is a configuration file that needs to be modified and restart Nagios whenever we want to have any modification. However, sensu-clients, which run on remote hosts, can subscribe to some checks and can avoid restarting the whole monitoring tool. It also uses RabbitMQ, which is a message-oriented middleware that implements Advanced Message Queueing Protocol (AMQP). Sensu is said to be a monitoring tool that is scalable, extensible and elastic[2]. 
+	
+	
+	We also explore some open source solutions that are similar to our idea of monitoring the cloud. PCMONS [12] is an open source pull-based monitoring solution. It has three levels of monitoring agents for physical level monitoring, which can cause network congestion. Moreover, it does not provide a mapping between virtual resources and physical resources. 
+	
+	
+	GMonE[10] is a monitoring tool that can both monitor physical system and virtual system. However, it doesn?t specify it can provide a mapping between physical systems and virtual systems. In addition, this solution has excessive use of monitoring agents and databases. It imposes the installation of agents on each VM and a database for each user. 
+	
+	
+	DARGOS [9] is an agent-based, publish/subscribe monitoring solution for multi-tenant clouds. Administrators can see the whole cloud and each tenant has its own view of the cloud. It supports several distributed databases set up across the cloud, which enables scalability and fault-tolerance. MonPaaS[11] is a monitoring tool that provides monitoring functions similar to DARGOS, ?information of physical as well as virtual resources and a mapping between virtual and physical resources. However, as we use OpenStack as our platform, DARGOS and MonPaaS will then not be a perfect solution for our  platform. 
+	
+\section{Approach}
+
+To achieve our project goals, which is exposing clouds? operational data to users and provide them a visualization of the data, we can follow several steps. The first is to decide the set of data that are useful to be collected. The second is how to collect that information. The third is how to retain that information. 
+
+	First, we need to come up with a list of metrics that are useful for users about MOC. We know that user will be concerned with time, performance, price, energy efficiency when they use MOC.  A cloud physical system can be divided into three parts: compute, storage and network. For each of the component in the cloud, we need to find parameters that can influence the factors that users are concerned with, such as performance. Because cloud is a large system, it can have thousands of physical machines and storages and complex networks. Storing data that are less useful seem to be a waste of storage and can lower the query speed. So we need to do research in papers, and find out users? demands when they consider using a cloud. Based on users? demand information, we can come up with a list of metrics that are useful to collect. Furthermore, we need also consider the scope of the data. For example, whether the data, such as cpu utilization, should be compute based or cluster based. Or if we should also store some historical data such as hourly cpu utilization or daily cpu utilization of a compute node. 
+	
+	In order to collect the data, we need to evaluate several monitoring tools. This project mainly focuses on physical system monitoring and a mapping between physical resources and virtual resources for users. From Prior Work section, we know that Sensu, Nagios and a lot of monitoring tools can collect the information of cloud?s physical system. We need to compare the difference between these monitoring tools. Monitoring of network switches, which are not commonly implemented in monitoring tools, is also needed to explore. 
+	
+	Apart from low-level monitoring, we still need some high-level monitoring to provide a mapping between the two for users. MOC uses OpenStack[4] as its platform to provision VMs and storage units. OpenStack has a generic metering project called ceilometer[18]. We need to install and test ceilometer and compare ceilometer with other metering tools, such as StackTach, which can provide us with the same information. 
+	The third step is to retain the data in a meaningful and organized way. We need to evaluate many databases that can be used for our project and also consider how we can retain all the data. As cloud is a complex and huge system, we need to choose a database that is able to store large data sets. For database selection, we have to evaluate several databases based on its scalability and speed. We also need to explore the distributed characteristics databases, as this can increase fault-tolerance, which is desired in a cloud environment. A reasonable database schema is also needed to store all the data. Moreover, as we have potential data from logs, monitoring tools, and metering tools, all of them may have its own database. To study their database and decide if we need to put all the collected in a single database or distribute them among different database is critical to our research. 
+	
+	Fourth, with the data collected and stored in the database/databases, we will make a data visualization tool. We need to explore how to present the data in a fashionable and readable way. This data visualization tool should show basic descriptions of the cloud, instantaneous usage of the cloud, and the mapping of physical machines and virtual machines. We will also explore open source visualization tools, such as Grafana [14] for visualizing and analyzing data within a time range. 
+
+\section{Plan and Schedule}
+	\begin{center}
+	\begin{tabular}{| m{4cm} | m{12cm} |}
+	\hline 
+	Early September - Late September & Consider many use cases for users of MOC and come up with a list of metrics that are useful for users about MOC. Use existing monitoring tool in MOC, Sensu, to get physical system information of MOC. Explore other monitoring tools that can get physical system information can evaluate them with Sensu. Collect the information as need from the monitoring tool we chose.\\
+	\hline
+	Early October - Late October & Evaluate metering tools, which are used for calculating how much resource a tenant has used. The options now are ceilometer and StackTach. We need to consider the overhead and quantity of the messages. The we will choose a better choice as our metering tool for mappings. Installation and setup of the metering tool that we chose after evaluation. Write a program for mappings for each project using the metering tool we chose after evaluation.\\
+	\hline
+	Early November - Late November  &  Explore the data that we can get from network switches, and write programs that can show how the physical hosts are connected via networks. \\
+	\hline
+	Early December - Late December &  Evaluate databases and decide if we should use multiple databases or just one database. If we choose one database, we need to come up with a schema for storing all the data. If we choose multiple databases, we need to come up with a way to have a good connection of the data. \\
+	\hline
+	Early January - Late January &  Using the data we collect and stored in the database, we need to make a visualization tool that can visualize both physical system information and a mapping between physical resources and virtual resources for each user. \\
+	\hline
+	Early February - Late February & Continue making the visualization tool and also come up with use cases for users and design the API for them. \\
+	\hline
+	Early March - Late March & Write programs that can provide API for users. \\
+	\hline
+	Early April - Late April &  Refine all parts of the project. Write the report.\\
+	\hline
+	\end{tabular}
+	\end{center}
+
+
+\section{Reference}
+
+
+Michael Armbrust, Armando Fox, ?Above the Clouds: A Berkeley View of Cloud Computing.? UC Berkeley Reliable Adaptive Distributed Systems Laboratory, February 10 ,2009
+
+Aceto,Giuseppe.,  Cloud monitoring: A survey
+
+Azer Bestavros ,Orran Krieger, ?Toward an Open Cloud Marketplace Vision and First Steps.?Internet Computing, IEEE  (Volume:18 ,  Issue: 1 )
+
+Omar Sefraoui, Mohammed Aissaoui, Mohsin Eleuldj, ?OpenStack: Toward an Open-Source Solution for Cloud Computing.? International Journal of Computer Applications (0975 - 8887) Volume 55 - No. 03, October 2012
+
+https://www.nagios.org/projects/
+
+https://assets.nagios.com/downloads/nagioscore/docs/nagioscore-3-en.pdf
+
+Y. Sandoval, G. Gallizo, and M. Curiel, ?Evaluation of Monitoring Tols for Cloud Computing,? Proc. Second Symp. Network Cloud Computing and Application, 2012.
+
+J. Montes, A. Sanchez, B. Memishi, M.S. Perez, and G. Antoniu, ?GMonE: A Complete Approach to Cloud Monitoring,? Future Generation Compute System, vol. 29, pp. 2026-2040, 2013.
+ J.M. Alcaraz Calero, and J.G.Aguado, ?MonPaaS: An Adaptive Monitoring Platform as a Service for Cloud Computing Infrastructure and Services,? IEEE Transaction on services computing, vol. 8, NO. 1, January/February 2015.
+
+ Shirlei Aparecida de Chaves, Rafael Brundo Uriarte, Carlos Becker Westphall, Toward an architecture for monitoring private clouds, IEEE Communications Magazine 49 (12) (2011) 130?137. 
+
+ https://influxdb.com/docs/v0.9/introduction/overview.html
+
+http://docs.grafana.org/
+
+ J.Spring, Monitoring cloud computing by layer, Part 1, IEEE Security & Privacy 9 (2) (2011) 66-68
+
+Wang, Lizhe, Rajiv Ranjan, Jinjun Chen, and Boualem Benatallah, eds. Cloud computing: methodology, systems, and applications. CRC Press, 2011.
+
+Conley, Michael, Amin Vahdat, and George Porter. "Achieving Cost-efficient, Data-intensive Computing in the Cloud." (2015).
+
+https://wiki.openstack.org/wiki/Ceilometer
+
+Armbrust, Michael, Armando Fox, Rean Griffith, Anthony D. Joseph, Randy Katz, Andy Konwinski, Gunho Lee et al. "A view of cloud computing." Communications of the ACM 53, no. 4 (2010): 50-58.
+
+
+
+\end{document}  
