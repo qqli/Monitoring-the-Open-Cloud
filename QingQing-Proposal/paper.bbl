@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{Armbrust2009}
+M.~Armbrust, A.~Fox, R.~Griffith, A.~D. Joseph, R.~H. Katz, A.~Konwinski,
+  G.~Lee, D.~A. Patterson, A.~Rabkin, I.~Stoica, and M.~Zaharia, ``Above the
+  clouds: A berkeley view of cloud computing,'' Tech. Rep. UCB/EECS-2009-28,
+  EECS Department, University of California, Berkeley, Feb 2009.
+
+\bibitem{Aceto2013}
+G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescapè, ``Cloud monitoring: A
+  survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
+
+\end{thebibliography}
