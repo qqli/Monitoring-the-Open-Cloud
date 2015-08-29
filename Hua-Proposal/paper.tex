@@ -1,0 +1,45 @@
+\documentclass[11pt,draft,letterpaper,compsoc]{IEEEtran}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage[dvipdf,dvips]{graphicx}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage[cmex10]{amsmath}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{url}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+\title{BU ECE Dept. MSc Proposal\\ Open Cloud for Cloud Research}
+
+\author{Hua~Li (UXXX) \\ (Advisor(s): Prof.~Orran~Krieger, Dr. Ata Turk)}
+
+\IEEEcompsoctitleabstractindextext{%
+\begin{abstract}
+
+Massachusetts Open Cloud (MOC) is one OCX [1] public cloud implemented with OpenStack. As an innovative cloud, MOC aims to provide a novel, transformative marketplace model for public cloud offerings [2]. One goal of this project is to break the situation that all information about the instances is closed by the monopolistic cloud provider and provide user more visibilities to the cloud so that they can make use of the information for various purposes, such as, make resources planning according to the hardware utilization [3], or research on performance optimization with metrics data [3] [4] [5]. To achieve this goal, we proposed to work on a project on top of MOC aims to expose the information in a secure, reliable, durable way for diversified purposes of user. One aspect of this goal is to help academic user do long term data analysis with machine learning techniques, which is an increasingly popular method for optimization. For completion of M.S. project, I will answer the questions what information can be collected for long-term cloud performance analysis and how to collect this information. A framework will be proposed to capture and correlate users applications and the VMs usage. A tool will be built with machine learning techniques to categorize VMs by application using information collected by the framework. A tool will be built with machine learning techniques to predict the application a user is running on VMs.
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+    Monitoring, Cloud, MOC, Visualization.
+\end{IEEEkeywords}}
+
+% make the title area
+\maketitle
+
+\IEEEdisplaynotcompsoctitleabstractindextext
+
+\IEEEpeerreviewmaketitle
+
+\input{Sections/Section1-ProblemStatement.tex}
+\input{Sections/Section2-PriorWork.tex}
+\input{Sections/Section3-ProposedApproach.tex}
+\input{Sections/Section4-Plan.tex}
+
+\bibliographystyle{ieeetr}
+\bibliography{main}
+
+\end{document}

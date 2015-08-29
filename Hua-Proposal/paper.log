@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 AUG 2015 19:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 AUG 2015 20:36
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**paper
+**paper.tex
 (./paper.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
@@ -324,9 +325,6 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 31.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -338,78 +336,29 @@ LaTeX Font Info:    Try loading font information for U+pzd on input line 31.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
 (./Sections/Section1-ProblemStatement.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 1.
-
-Underfull \vbox (badness 1874) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 6--7
-\OT1/ppl/m/n/11 ware in-fras-truc-ture of pub-lic clouds, thus
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 6--7
-\OT1/ppl/m/n/11 chines are far from ideal, per-for-mance is
- []
-
-[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-[2]
+Missing character: There is no “ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 ) (./Sections/Section2-PriorWork.tex
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] [2]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
- [3]
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ” in font pplr7t!
 )
-(./Sections/Section3-ProposedApproach.tex
-Underfull \hbox (badness 7168) in paragraph at lines 18--1
-[]\OT1/ppl/m/n/11 DARGOS [9] is an agent-based, pub-
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 18--1
-\OT1/ppl/m/n/11 tenant clouds. Ad-min-is-tra-tors can see the
- []
-
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-[4]) (./Sections/Section4-Plan.tex
+(./Sections/Section3-ProposedApproach.tex [3]) (./Sections/Section4-Plan.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <11> on input line 5.
@@ -418,32 +367,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 5.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[4]) (./paper.bbl
+Missing character: There is no Ã in font pplr7t!
+Missing character: There is no ¨ in font pplr7t!
+) [5
 
- [5]
-Underfull \vbox (badness 1874) has occurred while \output is active []
-
-)
-No file paper.bbl.
-[6] (./paper.aux) ) 
+] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3323 strings out of 493315
- 48878 string characters out of 6137904
- 119285 words of memory out of 5000000
- 6701 multiletter control sequences out of 15000+600000
- 34709 words of font info for 78 fonts, out of 8000000 for 9000
+ 3326 strings out of 493315
+ 48897 string characters out of 6137904
+ 119282 words of memory out of 5000000
+ 6700 multiletter control sequences out of 15000+600000
+ 36040 words of font info for 80 fonts, out of 8000000 for 9000
  960 hyphenation exceptions out of 8191
- 42i,7n,21p,1175b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (6 pages, 67113 bytes).
+ 42i,7n,21p,1891b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on paper.pdf (5 pages, 72561 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
