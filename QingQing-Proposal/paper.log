@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_6) (preloaded format=pdflatex 2015.3.14)  31 AUG 2015 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_6) (preloaded format=pdflatex 2015.3.14)  31 AUG 2015 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -315,30 +315,33 @@ LaTeX Font Info:    ... okay on input line 14.
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 31.
  (/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 32.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 32.
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 31.
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
 
+LaTeX Warning: Optional argument of \twocolumn too tall on page 1.
+
+
+LaTeX Warning: Text page 1 contains only floats.
+
+[1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
 (./Sections/Section1-ProblemStatement.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
@@ -348,10 +351,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
 (../LatexShared/Section1-Subsection1-DataCollectionRetention.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
- [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-
-]
 Underfull \hbox (badness 1983) in paragraph at lines 5--6
 \OT1/ppl/m/n/11 ware in-fras-truc-ture of pub-lic clouds, thus
  []
@@ -366,7 +366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []\OT1/ppl/m/n/11 Despite of per-for-mance in-vis-i-bil-ity of
  []
 
-[2])) (./Sections/Section2-PriorWork.tex
+[2]) [3]) (./Sections/Section2-PriorWork.tex
 (../LatexShared/Section2-Subsection1-DataCollectionRetention.tex
 Missing character: There is no â in font pplr7t!
 Missing character: There is no ‚ in font pplr7t!
@@ -374,14 +374,13 @@ Missing character: There is no ¬ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no „ in font pplr7t!
 Missing character: There is no ¢ in font pplr7t!
- [3]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no ‚ in font pplr7t!
 Missing character: There is no ¬ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no „ in font pplr7t!
 Missing character: There is no ¢ in font pplr7t!
-)
+ [4])
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ” in font pplr7t!
@@ -396,19 +395,18 @@ Underfull \hbox (badness 1968) in paragraph at lines 16--1
 \OT1/ppl/m/n/11 tenant clouds. Ad-min-is-tra-tors can see the
  []
 
-
-Underfull \vbox (badness 2435) has occurred while \output is active []
-
- [4]
 (../LatexShared/Section3-Subsection1-DataCollectionRetention.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no ‚ in font pplr7t!
 Missing character: There is no ¬ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no „ in font pplr7t!
 Missing character: There is no ¢ in font pplr7t!
-) [5])
-(./Sections/Section4-Plan.tex
+)
+[6]) (./Sections/Section4-Plan.tex
 (../LatexShared/Section4-Subsection1-DataCollectionRetention.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -417,11 +415,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.69997> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 4.
- [6]))
+ [7]))
 (./paper.bbl
 Missing character: There is no Ã in font pplr7t!
 Missing character: There is no ¨ in font pplr7t!
-) [7] (./paper.aux) ) 
+) [8] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
  3348 strings out of 494213
  49419 string characters out of 6157463
@@ -429,7 +427,7 @@ Here is how much of TeX's memory you used:
  6550 multiletter control sequences out of 15000+600000
  37673 words of font info for 82 fonts, out of 8000000 for 9000
  433 hyphenation exceptions out of 8191
- 42i,7n,21p,1347b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,21p,1465b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/opt/local/share/texmf-texlive/fonts/enc/dvips/base/8r.en
 c}</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></op
 t/local/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/local/sha
@@ -437,10 +435,10 @@ re/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/local/share/texmf-te
 xlive/fonts/type1/urw/palatino/uplr8a.pfb></opt/local/share/texmf-texlive/fonts
 /type1/urw/palatino/uplri8a.pfb></opt/local/share/texmf-texlive/fonts/type1/urw
 /zapfding/uzdr.pfb>
-Output written on paper.pdf (7 pages, 85304 bytes).
+Output written on paper.pdf (8 pages, 87344 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
