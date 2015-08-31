@@ -10,4 +10,25 @@ M.~Armbrust, A.~Fox, R.~Griffith, A.~D. Joseph, R.~H. Katz, A.~Konwinski,
 G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescapè, ``Cloud monitoring: A
   survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
 
+\bibitem{chaves2011toward}
+D.~Chaves, S.~Aparecida, R.~B. Uriarte, and C.~B. Westphall, ``Toward an
+  architecture for monitoring private clouds,'' {\em Communications Magazine,
+  IEEE}, vol.~49, no.~12, pp.~130--137, 2011.
+
+\bibitem{montes2013gmone}
+J.~Montes, A.~S{\'a}nchez, B.~Memishi, M.~S. P{\'e}rez, and G.~Antoniu,
+  ``Gmone: A complete approach to cloud monitoring,'' {\em Future Generation
+  Computer Systems}, vol.~29, no.~8, pp.~2026--2040, 2013.
+
+\bibitem{povedano2013dargos}
+J.~Povedano-Molina, J.~M. Lopez-Vega, J.~M. Lopez-Soler, A.~Corradi, and
+  L.~Foschini, ``Dargos: A highly adaptable and scalable monitoring
+  architecture for multi-tenant clouds,'' {\em Future Generation Computer
+  Systems}, vol.~29, no.~8, pp.~2041--2056, 2013.
+
+\bibitem{alcaraz2015monpaas}
+J.~Alcaraz~Calero and J.~Gutierrez~Aguado, ``Monpaas: An adaptive monitoring
+  platformas a service for cloud computing infrastructures and services,'' {\em
+  Services Computing, IEEE Transactions on}, vol.~8, no.~1, pp.~65--78, 2015.
+
 \end{thebibliography}
