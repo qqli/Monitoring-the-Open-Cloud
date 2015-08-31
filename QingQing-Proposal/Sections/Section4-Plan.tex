@@ -2,12 +2,12 @@
 \label{sec:Plan}
 
 \begin{itemize}
-\item{[Sep 2015 - Oct 2015]:} Consider many use cases for users of MOC and come up with a list of metrics that are useful for users about MOC. Use existing monitoring tool in MOC, Sensu, to get physical system information of MOC. Explore other monitoring tools that can get physical system information can evaluate them with Sensu. Collect the information as need from the monitoring tool we chose.
-\item{[Oct 2015 - Nov 2015]:} Evaluate metering tools, which are used for calculating how much resource a tenant has used. The options now are ceilometer and StackTach. We need to consider the overhead and quantity of the messages. The we will choose a better choice as our metering tool for mappings. Installation and setup of the metering tool that we chose after evaluation. Write a program for mappings for each project using the metering tool we chose after evaluation.
-\item{[Nov 2015 - Dec 2015]:} Explore the data that we can get from network switches, and write programs that can show how the physical hosts are connected via networks. 
-\item{[Dec 2015 - Jan 2016]:} Evaluate databases and decide if we should use multiple databases or just one database. If we choose one database, we need to come up with a schema for storing all the data. If we choose multiple databases, we need to come up with a way to have a good connection of the data. 
-\item{[Jan 2016 - Feb 2016]:} Using the data we collect and stored in the database, we need to make a visualization tool that can visualize both physical system information and a mapping between physical resources and virtual resources for each user. 
-\item{[Feb 2016 - Mar 2016]:} Continue making the visualization tool and also come up with use cases for users and design the API for them. 
-\item{[Mar 2016 - Apr 2016]:} Write programs that can provide API for users. 
-\item{[Apr 2016 - Jun 2016]:} Refine all parts of the project. Write the report.
+\item{[Sep 2015 - Oct 2015]:} Data collection. 1) Evaluate various monitoring tools, and choose one or several tools that satisfy our project requirements including performance, scalability, elasticity. Collect physical system information of MOC using monitoring tools we chose. 2) Evaluate metering tools for OpenStack, such as Ceilometer and StackTach. Use the metering tool that better suits our needs and also produce less overhead, and collect per-tenant information for virtual resources usage. 
+\item{[Oct 2015 - Nov 2015]:}Data retention. 1) We will evaluate several databases and choose databases that suits our needs. 2) We will also need to evaluate centralized or distributed database storage system for our environment and design data schema. 3) We will integrate the monitoring tools and our storage.
+\item{[Nov 2015 - Dec 2015]:} Explore the metrics that users are interested in by doing researches. Store more data as we know more about users demands. Maintain the database so that we can do queries on larger set of data that is generated and collected from the cloud. 
+\item{[Dec 2015 - Jan 2016]:} Design and write the API for users that they can use for more convenient queries. If we decide to use several databases, we will also write APIs that set up connections among different databases. 
+\item{[Jan 2016 - Feb 2016]:} Continuing writing APIs for users.  
+\item{[Feb 2016 - Mar 2016]:} Using the data we collect and stored in the database, we need to make a visualization tool that can visualize both physical system information and a mapping between physical resources and virtual resources for each user. During this month, the visualization of the whole cloud, how the physical devices are connected and what are conditions of physical machines will be provided.  
+\item{[Mar 2016 - Apr 2016]:} Continuing in making the visualization tool. The visualization of mapping between physical resources and virtual resources will be provided to users during this phase.  
+\item{[Apr 2016 - May 2016]:} Refine all parts of the project. Write the report.
 \end{itemize}
