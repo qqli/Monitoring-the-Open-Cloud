@@ -4,4 +4,20 @@
 G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescap√®, ``Cloud monitoring: A
   survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
 
+\bibitem{Alcaraz2015}
+A.~Calero, Paisley, and J.~Aguado, ``Monpaas: An adaptive monitoring platform
+  as a service for cloud computing infrastructures and services,'' {\em
+  Services Computing}, vol.~8, pp.~65 -- 78, 2015.
+
+\bibitem{Jesus2013}
+J.~Montesa, A.~S·nchezb, B.~Memishic, M.~S. PÈrezc, and G.~Antoniud, ``Gmone: A
+  complete approach to cloud monitoring,'' {\em Future Generation Computer
+  Systems}, vol.~29, no.~8, pp.~2026--2040, 2013.
+
+\bibitem{Javier2013}
+J.~Povedano-Molina, J.~M. Lopez-Vega, J.~M. Lopez-Soler, A.~Corradi, and
+  L.~Foschini, ``Dargos: A highly adaptable and scalable monitoring
+  architecture for multi-tenant clouds,'' {\em Future Generation Computer
+  Systems}, vol.~29, no.~8, pp.~2041--2056, 2013.
+
 \end{thebibliography}
