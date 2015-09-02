@@ -4,10 +4,6 @@
 J.~Spring, ``Monitoring cloud computing by layer, part 1,'' {\em Security \&
   Privacy, IEEE}, vol.~9, no.~2, pp.~66--68, 2011.
 
-\bibitem{Aceto2013}
-G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescapè, ``Cloud monitoring: A
-  survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
-
 \bibitem{Armbrust2009}
 M.~Armbrust, A.~Fox, R.~Griffith, A.~D. Joseph, R.~H. Katz, A.~Konwinski,
   G.~Lee, D.~A. Patterson, A.~Rabkin, I.~Stoica, and M.~Zaharia, ``Above the
@@ -17,21 +13,6 @@ M.~Armbrust, A.~Fox, R.~Griffith, A.~D. Joseph, R.~H. Katz, A.~Konwinski,
 \bibitem{conley2015achieving}
 M.~Conley, A.~Vahdat, and G.~Porter, ``Achieving cost-efficient, data-intensive
   computing in the cloud,'' 2015.
-
-\bibitem{sandoval2012evaluation}
-Y.~Sandoval, G.~Gallizo, and M.~Curiel, ``Evaluation of monitoring tools for
-  cloud computing,'' in {\em de XXXVIII Conferencia Latinoamericana en
-  Informatica (CLEI), Medellin, Colombia}, 2012.
-
-\bibitem{sensu}
-\url{ https://sensuapp.org/docs/0.20/overview}.
-
-\bibitem{ceilometer}
-``ceilometer.'' \url{http://docs.openstack.org/developer/ceilometer/}.
-
-\bibitem{stacktach}
-S.~Walsh, ``Stacktach documentation.''
-  \url{https://media.readthedocs.org/pdf/stacktach/latest/stacktach.pdf}.
 
 \bibitem{chaves2011toward}
 D.~Chaves, S.~Aparecida, R.~B. Uriarte, and C.~B. Westphall, ``Toward an
@@ -54,11 +35,20 @@ J.~Alcaraz~Calero and J.~Gutierrez~Aguado, ``Monpaas: An adaptive monitoring
   platformas a service for cloud computing infrastructures and services,'' {\em
   Services Computing, IEEE Transactions on}, vol.~8, no.~1, pp.~65--78, 2015.
 
-\bibitem{cuiusing}
-H.~Cui, K.~Keeton, I.~Roy, K.~Viswanathan, and G.~R. Ganger, ``Using data
-  transformations for low-latency time series analysis,''
+\bibitem{sandoval2012evaluation}
+Y.~Sandoval, G.~Gallizo, and M.~Curiel, ``Evaluation of monitoring tools for
+  cloud computing,'' in {\em de XXXVIII Conferencia Latinoamericana en
+  Informatica (CLEI), Medellin, Colombia}, 2012.
 
-\bibitem{grafana}
-\url{ http://docs.grafana.org/}.
+\bibitem{Aceto2013}
+G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescapè, ``Cloud monitoring: A
+  survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
+
+\bibitem{ceilometer}
+``ceilometer.'' \url{http://docs.openstack.org/developer/ceilometer/}.
+
+\bibitem{stacktach}
+S.~Walsh, ``Stacktach documentation.''
+  \url{https://media.readthedocs.org/pdf/stacktach/latest/stacktach.pdf}.
 
 \end{thebibliography}
