@@ -4,9 +4,11 @@
 J.~Spring, ``Monitoring cloud computing by layer, part 1,'' {\em Security \&
   Privacy, IEEE}, vol.~9, no.~2, pp.~66--68, 2011.
 
-\bibitem{Aceto2013}
-G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescapè, ``Cloud monitoring: A
-  survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
+\bibitem{nagios}
+
+
+\bibitem{nagiosdoc}
+
 
 \bibitem{sandoval2012evaluation}
 Y.~Sandoval, G.~Gallizo, and M.~Curiel, ``Evaluation of monitoring tools for
@@ -15,6 +17,15 @@ Y.~Sandoval, G.~Gallizo, and M.~Curiel, ``Evaluation of monitoring tools for
 
 \bibitem{sensu}
 
+
+\bibitem{Aceto2013}
+G.~Aceto, A.~Botta, W.~de~Donato, and A.~Pescapè, ``Cloud monitoring: A
+  survey,'' {\em Computer Networks}, vol.~57, no.~9, pp.~2093 -- 2115, 2013.
+
+\bibitem{sefraoui2012openstack}
+O.~Sefraoui, M.~Aissaoui, and M.~Eleuldj, ``Openstack: toward an open-source
+  solution for cloud computing,'' {\em International Journal of Computer
+  Applications}, vol.~55, no.~3, pp.~38--42, 2012.
 
 \bibitem{ceilometer}
 
