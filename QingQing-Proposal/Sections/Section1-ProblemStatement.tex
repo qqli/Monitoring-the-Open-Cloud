@@ -1,16 +1,17 @@
 \section{Problem Statement}
 \label{sec:ProblemStatement}
 
-\input{../LatexShared/Section1-Subsection0-Introduction.tex}
+%\input{../LatexShared/Section1-Subsection0-Introduction.tex}
 
 This project will be composed of two phases. The first phase, Data Collection and Retention, will be a platform building phase that collects and stores raw data from the MOC. It will be a shared effort with another master student in his project--'Open Cloud for Cloud Research'.  
 The second phase, Data Transformation and Visualization, will first extend the platform by filtering and transforming the raw data collected from the cloud such that a number of query sets can be efficiently performed over the data. We will then exercise and refine the platform by developing an end-user tool that visualizes both the status of the cloud, and the user’s virtual cloud resources. The goal of this tool will be to provide users the kind of information they have to reverse engineer on existing clouds to optimize their applications.
 
 \input{../LatexShared/Section1-Subsection1-DataCollectionRetention.tex}
+\input{Sections/Section1-Subsection2-DataVisualization.tex}
 
-\subsection{Cloud Monitoring Data Transformation and Visualization}
-During this phase, we will extend the platform we built in the previous phase by filtering and transforming the retained data. Then we will provide an API  for efficient queries and an end-user tool that can visualize the status of the cloud as well as user specific utilization of the cloud.  
+%\subsection{Cloud Monitoring Data Transformation and Visualization}
+%During this phase, we will extend the platform we built in the previous phase by filtering and transforming the retained data. Then we will provide an API  for efficient queries and an end-user tool that can visualize the status of the cloud as well as user specific utilization of the cloud.  
 
-The data collected from the cloud is hard to use and there are some challenges for us to filter and transform the data. First, for monitoring the same cloud, we use different monitoring tools for different levels or even layers, which means that we need a mechanism to relate data from different levels or layers. Second, the data we collected from the system is raw, which means that users may not know what does the data represents and the data need to be aggregated based on users’ demands and use cases. For example, the utilization information come from monitoring tools is compute based, we can aggregate the compute utilizations to get utilizations of a cluster. 
+%The data collected from the cloud is hard to use and there are some challenges for us to filter and transform the data. First, for monitoring the same cloud, we use different monitoring tools for different levels or even layers, which means that we need a mechanism to relate data from different levels or layers. Second, the data we collected from the system is raw, which means that users may not know what does the data represents and the data need to be aggregated based on users’ demands and use cases. For example, the utilization information come from monitoring tools is compute based, we can aggregate the compute utilizations to get utilizations of a cluster. 
 
-Having a platform that collects and retains data that represents the status of the cloud, however, is not enough. First, as database schema may change or we may have several databases for storing all the information, direct access to database may not be an efficient way. Second, reading documentations and statistics for large set of data is not yet clear to cloud users, especially for end users. Third, exposing the data of the whole platform means risking the security of the cloud and privacy of users. So we plan to provide an API and an end-user visualization tool for showing cloud status and users’ virtual resources. 
+%Having a platform that collects and retains data that represents the status of the cloud, however, is not enough. First, as database schema may change or we may have several databases for storing all the information, direct access to database may not be an efficient way. Second, reading documentations and statistics for large set of data is not yet clear to cloud users, especially for end users. Third, exposing the data of the whole platform means risking the security of the cloud and privacy of users. So we plan to provide an API and an end-user visualization tool for showing cloud status and users’ virtual resources. 
