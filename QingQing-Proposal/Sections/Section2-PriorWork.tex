@@ -9,6 +9,8 @@
 
 \subsection{Cloud Monitoring Data Transformation and Visualization}
 
+For commercial platforms, some of the major companies such as Amazon and Microsoft, already provide monitoring services. CloudWatch, a monitoring service provided by Amazon, only have services of monitoring virtual resources such as EC2~\cite{Aceto2013}. Amazon does not provide low-level monitoring (physical machines' information). AzureWatch, provided by Microsoft, also does not provide the monitoring information of low-level cloud. 
+
   We also explore some open source solutions that are similar to our idea of monitoring the cloud and exposing the information to users. PCMONS ~\cite{chaves2011toward} is an open source pull-based monitoring solution. However, it has three levels of monitoring agents for physical level monitoring, which can cause network congestion and it does not provide a mapping between virtual resources and physical resources. 
 
   GMonE~\cite{montes2013gmone} is a monitoring tool that can both monitor physical system and virtual system. However, it doesn't specify it can provide a mapping between physical systems and virtual systems. In addition, this solution has excessive use of monitoring agents and databases. It imposes the installation of agents on each VM and a database for each user. 
