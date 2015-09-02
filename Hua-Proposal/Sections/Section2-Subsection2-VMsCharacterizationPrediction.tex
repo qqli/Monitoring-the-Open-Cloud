@@ -4,10 +4,5 @@
 Research on performance optimization~\cite{Yang2005,Matsunaga2010,OguraM10}
 is based on data analysis and modeling techniques that dependes on an understanding of the applications~\cite{Shan2008}; VM characterization is fundamental to these optimization efforts. 
 
-Previous work on characerizing VMs 
+VM characterization is not a well studied problem in the literature. Probably most related work to ours is~\cite{Derrick2014}, which characterizes and models Google applications and jobs, based on a one-month Google trace data from a large-scale Google data center, and clusters similar jobs based on resource utilization. They do not identify possible application classes beforehand and hence they came up with a clustering solution. Remotely related to VM characterization are studies on VM performance prediction~\cite{Matsunaga2010, Samuel2013}. \cite{Matsunaga2010} tries to predict the time and resources that will be consumed by a cloud application using system and input data characteristics and \cite{Samuel2013} try to predict response time of applications on the cloud using resource utilization metrics available when a VM is created. 
 
-Due to the way of categorization of applications can be very different depending on the angle of the observer. ~\cite{Derrick2014} categorize the application based on the job’s intrinsic structure (i.e., how many tasks per job and how to connect them), they split the applications into four execution types (or application types), single-task application, sequential-task application, batch-task application and mix-mode application. While from the perspective of other researches, one application cloud be divided into web server, transactional database, load balancer,etc.
-
-For example, ~\cite{Matsunaga2010} predicted the time and resources consumed by applications using a Decision table/tree (DT) algorithm. But each algorithm will have the different performance and accuracy. In ~\cite{Samuel2013}, Samuel evaluated three algorithms, including SVM, LR, NN, to predict response time of the application, where he claimed the SVM has the best accuracy by comparing the error rates. So we also need to evaluate the result of different algorithms and choose the best fit to obtain good accuracy.
-
-%  LocalWords:  Matsunaga2010 OguraM10
