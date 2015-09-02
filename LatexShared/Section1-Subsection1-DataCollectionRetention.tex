@@ -1,13 +1,15 @@
 \subsection{Data Collection and Retention}
 
+Cloud environments are enourmously complicated systems that are composed of seven very different layers (facility, network, hardware, OS, middleware, application, and the user~\cite{spring2011monitoring}) with complex interactions between the components and players at these different layers.  Our fundamental goal for this phase of the project is to collect information from all these different layers and retain it so that tools can be developed that can correlate information from all the different sources.  For example, a performance tool may need to connect a VM launched by a user to information from cloud middleware about what node the VM was launched on, to information from a hypervisor about what the demands of the VM were. 
 
-Cloud environment is a complicated system, and it can be modeled in seven layers: facility, network, hardware, OS, middleware, application, and the user~\cite{spring2011monitoring}. Monitoring of these seven layers can be grouped to high-level and low-level monitoring. High-level monitoring is related to cloud virtual system which is composed of middleware, application, and user layer ~\cite{Aceto2013}. Low-level monitoring is related to cloud’s physical system which is composed of the other four layers. 
-
-There exists multiple successful monitoring tool options for each layer of the cloud. Our hypothesis for this phase is that we can use a combination of existing monitoring tools for data collection, so that we do not have to build new monitoring tools. For data retention, some of the monitoring tools come with a database, while other monitoring tools does not retain the data they collected. Whether to store all the data collected in one large database or store it in separate databases as provided by some of the monitoring tools is an issue we will investigate.
-
+% Collection of information about the cloud is done by monitoring tools that 
+% There are no tools that monitor all these different layers
+% with tools grouped into high-level related to cloud virtual system which is composed of middleware, application, and user layer ~\cite{Aceto2013}. Low-level monitoring is related to cloud’s physical system which is composed of the other four layers.
 
 The research challenges for this phase are 1) how to collect operational data of the cloud from different sources in a scalable way without impacting the performance of the components being monitored, and 2)  how to retain and update the data in a scalable manner, to support multiple types of queries, and to optimize the retention for data analysis.
 
+For data collection, while there exists no tools that collect informaton from all the different layers of the cloud, there are a wide variety of tools that are specific to different layers.  Our hypothesis for this phase is that we can use a combination of existing monitoring tools for data collection, so that we do not have to build new monitoring tools.  We will, however, need to evaluate the different alternatives from both a capability and performance perspective.  
+For data retention, there are a variety of different databases and architectures to evaluate from a scalability and performance perspective.  We will also need to consider if all the data should be incorporated into a single data base, or of information should be partitioned across a database we define and monitoring tool specific databases. 
 
 %In order to expose the cloud performance characteristics and utilization data to users as well as researchers, we will build a %monitoring platform that can collect and retain the performance and utilization of the cloud. The challenges for this phase %are 1) how to collect operational data of the cloud from different sources in a scalable way without impacting the performance %of the components being monitored, and 2) how to retain the data in a scalable manner and to optimize the retention for data %analysis.
 %
