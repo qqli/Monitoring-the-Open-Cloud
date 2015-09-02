@@ -1,15 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{Armbrust2009}
-M.~Armbrust, A.~Fox, R.~Griffith, A.~D. Joseph, R.~H. Katz, A.~Konwinski,
-  G.~Lee, D.~A. Patterson, A.~Rabkin, I.~Stoica, and M.~Zaharia, ``Above the
-  clouds: A berkeley view of cloud computing,'' Tech. Rep. UCB/EECS-2009-28,
-  EECS Department, University of California, Berkeley, Feb 2009.
-
-\bibitem{conley2015achieving}
-M.~Conley, A.~Vahdat, and G.~Porter, ``Achieving cost-efficient, data-intensive
-  computing in the cloud,'' 2015.
-
 \bibitem{spring2011monitoring}
 J.~Spring, ``Monitoring cloud computing by layer, part 1,'' {\em Security \&
   Privacy, IEEE}, vol.~9, no.~2, pp.~66--68, 2011.
@@ -25,6 +15,13 @@ Y.~Sandoval, G.~Gallizo, and M.~Curiel, ``Evaluation of monitoring tools for
 
 \bibitem{sensu}
 
+
+\bibitem{ceilometer}
+
+
+\bibitem{stacktach}
+S.~Walsh, ``Stacktach documentation.''
+  \url{https://media.readthedocs.org/pdf/stacktach/latest/stacktach.pdf}.
 
 \bibitem{Yang2005}
 T.~Yang, X.~Ma, and F.~Mueller, ``Predicting parallel applications’ performance
@@ -44,21 +41,22 @@ H.~Shan, K.~Antypas, and J.~Shalf, ``Characterizing and predicting the i/o
   in {\em Proceedings of the 2008 ACM/IEEE Conference on Supercomputing}, SC
   '08, (Piscataway, NJ, USA), pp.~42:1--42:12, IEEE Press, 2008.
 
-\bibitem{Brian98}
-B.~Armstrong and R.~Eigenmann, ``Performance forecasting: Towards a methodology
-  for characterizing large computational applications,'' in {\em 1998
-  International Conference on Parallel Processing {(ICPP} '98), 10-14 August
-  1998, Minneapolis, Minnesota, USA, Proceedings}, pp.~518--526, {IEEE}
-  Computer Society, 1998.
+\bibitem{OguraM10}
+D.~R. Ogura and E.~T. Midorikawa, ``Characterization of scientific and
+  transactional applications under multi-core architectures on cloud computing
+  environment,'' in {\em 13th {IEEE} International Conference on Computational
+  Science and Engineering, {CSE} 2010, Hong Kong, China, December 11-13, 2010},
+  pp.~314--320, {IEEE} Computer Society, 2010.
 
-\bibitem{Huaxia1999}
-H.~Xia, H.~Dail, H.~Casanova, and A.~A. Chien, ``The microgrid: Using online
-  simulation to predict application performance in diverse grid network
-  environments,'' in {\em Laboratory of University of Tennesse, Knoxville.
-  From}, 1999.
+\bibitem{Derrick2014}
+S.~Di, D.~Kondo, and F.~Cappello, ``Characterizing and modeling cloud
+  applications/jobs on a google data center,'' {\em The Journal of
+  Supercomputing}, vol.~69, no.~1, pp.~139--160, 2014.
 
-\bibitem{Michael2015}
-M.~Conley, A.~Vahdat, and G.~Porter, ``Achieving cost-efficient, data-intensive
-  computing in the cloud,'' no.~12, 2015.
+\bibitem{Samuel2013}
+S.~A. Ajila and A.~A. Bankole, ``Cloud client prediction models using machine
+  learning techniques,'' in {\em 37th Annual {IEEE} Computer Software and
+  Applications Conference, {COMPSAC} 2013, Kyoto, Japan, July 22-26, 2013},
+  pp.~134--142, {IEEE} Computer Society, 2013.
 
 \end{thebibliography}

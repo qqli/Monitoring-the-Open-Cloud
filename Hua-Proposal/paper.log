@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 SEP 2015 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_9) (preloaded format=pdflatex 2015.5.13)  2 SEP 2015 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper
 (./paper.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./IEEEtran.cls
 Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -18,7 +18,7 @@ Document Class: IEEEtran 2007/03/05 V1.7a by Michael Shell
 -- Using IEEE Computer Society mode.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 366.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -87,75 +87,75 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+) (/opt/local/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks15
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 137.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/opt/local/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvipdf.def on input line 94.
+Package graphics Info: Driver file: dvipdf.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipdf.def
-File: dvipdf.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/dvipdf.def
+File: dvipdf.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -164,11 +164,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -188,24 +188,24 @@ Package: subfigure 1995/03/06 v2.0
 \c@lofdepth=\count93
 \c@subtable=\count94
 \c@lotdepth=\count95
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen119
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen120
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count96
@@ -245,12 +245,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
-)
-(./algorithm.sty
+) (./algorithm.sty
 Package: algorithm 
-
 Document Style `algorithm' - floating environment
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+(/opt/local/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count108
 \float@exts=\toks22
@@ -258,26 +256,25 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box30
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/opt/local/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks24
 \c@algorithm=\count109
-)
-(./algorithmic.sty
+) (./algorithmic.sty
 Package: algorithmic 
 
 Document Style `algorithmic' - environment
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+(/opt/local/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count110
 \calc@Bcount=\count111
 \calc@Adimen=\dimen128
 \calc@Bdimen=\dimen129
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count112
 \calc@Cskip=\skip49
 )
@@ -285,7 +282,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \c@ALC@rem=\count114
 \ALC@tlm=\skip50
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(/opt/local/share/texmf-texlive/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./paper.aux)
@@ -304,7 +301,7 @@ LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(/opt/local/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen130
@@ -318,108 +315,137 @@ LaTeX Font Info:    ... okay on input line 14.
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 31.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 32.
+ (/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
-LaTeX Font Info:    Try loading font information for U+pzd on input line 31.
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Try loading font information for U+pzd on input line 32.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/upzd.fd
+(/opt/local/share/texmf-texlive/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
-)
+) [1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
 (./Sections/Section1-ProblemStatement.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 1.
-
-(../LatexShared/Section1-Subsection0-Introduction.tex
-Underfull \vbox (badness 1874) has occurred while \output is active []
-
- [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-])
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
+Missing character: There is no ¦ in font pplr7t!
 
 (../LatexShared/Section1-Subsection1-DataCollectionRetention.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <11> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
- [2]
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ¦ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ¦ in font pplr7t!
 )
-(./Sections/Section1-Subsection2-VMsCharacterizationPrediction.tex))
-(./Sections/Section2-PriorWork.tex
-(../LatexShared/Section2-Subsection1-DataCollectionRetention.tex
+(./Sections/Section1-Subsection2-VMsCharacterizationPrediction.tex
 Missing character: There is no â in font pplr7t!
-Missing character: There is no ‚ in font pplr7t!
-Missing character: There is no ¬ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no „ in font pplr7t!
-Missing character: There is no ¢ in font pplr7t!
- [3])
-Underfull \hbox (badness 1424) in paragraph at lines 12--13
-\OT1/ppl/m/n/11 sim-u-la-tion tech-niques can cap-ture de-tailed
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ¦ in font pplr7t!
+ [2
+
+]
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.69997> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 6.
+
+Underfull \hbox (badness 3343) in paragraph at lines 8--9
+[]\OT1/ppl/m/n/11 Identifying mean-ing-ful/useful fea-tures,
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 12--13
+[]\OT1/ppl/m/n/11 Performing scalable/real-time clas-si-fi-ca-
+ []
+
+[3])) (./Sections/Section2-PriorWork.tex
+(../LatexShared/Section2-Subsection1-DataCollectionRetention.tex)
+(./Sections/Section2-Subsection2-VMsCharacterizationPrediction.tex
+Underfull \hbox (badness 1622) in paragraph at lines 9--1
+\OT1/ppl/m/n/11 can con-sume no-ti-fi-ca-tions from Open-Stack
  []
 
 [4]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-) (./Sections/Section3-ProposedApproach.tex
+)) (./Sections/Section3-ProposedApproach.tex
+(../LatexShared/Section3-Subsection1-DataCollectionRetention.tex
+Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
-) (./Sections/Section4-Plan.tex
-[5]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 5.
- [6]) (./paper.bbl
+Missing character: There is no ¦ in font pplr7t!
+ [5]
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ¦ in font pplr7t!
+)
+(./Sections/Section3-Subsection2-VMsCharacterizationPrediction.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+ [6])
+(./Sections/Section4-Plan.tex) (./paper.bbl
 Missing character: There is no Ã in font pplr7t!
 Missing character: There is no ¨ in font pplr7t!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 24.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+[]\OT1/ppl/m/n/9 S. Walsh, ``Stack-tach doc-u-men-ta-tion.''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+\OT1/ppl/m/n/9 https : / / media . readthedocs . org / pdf / stacktach /
+ []
+
 Missing character: There is no ’ in font pplr7t!
 Missing character: There is no ” in font pplri7t!
-) [7] (./paper.aux) ) 
+[7]) [8
+
+] (./paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3350 strings out of 493089
- 49746 string characters out of 6134842
- 118431 words of memory out of 5000000
- 6743 multiletter control sequences out of 15000+600000
- 37673 words of font info for 82 fonts, out of 8000000 for 9000
+ 3366 strings out of 493117
+ 49907 string characters out of 6137199
+ 115160 words of memory out of 5000000
+ 6728 multiletter control sequences out of 15000+600000
+ 38585 words of font info for 85 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 42i,7n,21p,1154b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (7 pages, 90246 bytes).
+ 42i,7n,21p,1163b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/local/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</opt/local/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/local/share/texmf
+-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></opt/local/share/texmf-texlive/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></opt/local/share/texmf-texlive/fonts/type1/u
+rw/palatino/uplr8a.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/palatino
+/uplri8a.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/zapfding/uzdr.pfb>
+
+Output written on paper.pdf (8 pages, 90786 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
