@@ -1,4 +1,10 @@
-\subsection{VMs Characterization and Prediction}
+\subsection{VM Characterization}
+VM characterization is the task of identifying why a VM is used for. For example, is the VM running a Web Server, a caching server, a database application, etc… VM characterization is important because it enables performance optimizations such as, suggesting best VM configurations for different VM classes and making intelligent VM placement decisions. 
 
-
-
+The research challenges in this phase can be listed as:
+\begin{itemize}
+\item Identifying possible VM classes: coming up with a complete VM functionality classification table
+\item Identifying meaningful/useful features, doing feature selection among many data sources and features, 
+\item Identifying best classification algorithm among the multiple possible classification algorithms, 
+\item Performing scalable/real-time classification, if possible with a small amount of data after a short amount of execution time, to enable early optimizations.  
+\end{itemize}
