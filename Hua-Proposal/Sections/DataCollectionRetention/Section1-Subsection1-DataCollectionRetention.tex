@@ -1,0 +1,24 @@
+\subsection{Data Collection and Retention of Physical Infrastructure}
+
+% Collection of information about the cloud is done by monitoring tools that 
+% There are no tools that monitor all these different layers
+% with tools grouped into high-level related to cloud virtual system which is composed of middleware, application, and user layer ~\cite{Aceto2013}. Low-level monitoring is related to cloud’s physical system which is composed of the other four layers.
+
+The research challenges for this phase are 1) how to collect metrics data of the physical infrastructures from different sources in a scalable manner with little impact on the performance of the components being monitored, and 2) how to retain and update the data in a scalable way, to optimize the retention for data analysis.
+
+To collect data, while we have not found any tool that completely fulfills our requirements, various tools have been developed for monitoring specific components in physical infrastructures. Our assumption for this phase is that we can use a combination of existing monitoring tools for data collection, so that we can avoid effort on developing new monitoring tools. We will, however, evaluate the different alternatives from both a capability and performance perspective.
+
+To retain data, we will need to evaluate various different databases and architectures from a scalability and performance perspective. We will also need to consider if all the data should be incorporated into a single database, or if information should be partitioned across a database we define and monitoring tool specific databases.
+
+%In order to expose the cloud performance characteristics and utilization data to users as well as researchers, we will build a %monitoring platform that can collect and retain the performance and utilization of the cloud. The challenges for this phase %are 1) how to collect operational data of the cloud from different sources in a scalable way without impacting the performance %of the components being monitored, and 2) how to retain the data in a scalable manner and to optimize the retention for data %analysis.
+%
+%Cloud environment is a complicated system, and it can be modeled in seven layers: facility, network, hardware, OS, middleware, %application, and the user~\cite{spring2011monitoring}. Monitoring of these seven layers can be grouped to high-level and low-%level monitoring. 
+%High-level monitoring is related to virtual cloud resources, which are composed of middleware, application, and user layer~\%cite{Aceto2013}. 
+%Low-level monitoring is related to cloud’s physical infrastructure, which is composed of the other four layers. 
+%
+%There exists multiple successful monitoring tool options for each layer of the cloud. For data collection and retention phase %we plan to use a subset of these tools. However, as there are many options, we need to evaluate and investigate a huge set of %combinations to obtain the performance and utilization of the cloud in an effective and efficient manner. 
+%
+%We plan to investigate cloud data collection tools such as Sensu, Nagios, Zabbix, Ceilometer, Stacktach, and Logstash. Our %main concerns in data collection is a) having a wide range of data collection capabilities, b) being scalable, c) having a low %impact on the monitored system.  The data that we initially plan to monitor are utilization of the physical resources (e.g. %CPU, memory, disk, network, I/O bandwidth, etc...) and cloud services (e.g. authentication, cloud networking, VM image hosting %services, etc...), power consumption of components of the cloud (e.g. CPU/memory voltage, temperatures of various node %components, etc...), utilization and metering of virtual resources (e.g. how many VM hours per user, how much I/O, VM to %physical node mappings, etc…), logs from different cloud layers (e.g. OS level logs, hypervisor level logs, cloud management %service logs, etc...).   
+%
+%Similarly, there are multiple database options for retaining the data collected from the cloud. The database solutions we will %adopt has to be scalable, easy to update, amenable to supporting multiple types of queries. We plan to evaluate options such %as InfluxDB, MongoDB, MySQL, etc… Some data collection tools come with a database, while other monitoring tools does not %retain the data they collected. Whether to store all the data collected in one large database or store it in separate %databases as provided by some of the monitoring tools is an issue we will investigate.
+%
