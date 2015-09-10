@@ -6,15 +6,11 @@
 \label{sec:PriorWork}
 
 %\input{../LatexShared/Section2-Subsection1-DataCollectionRetention.tex}
-\subsection{Data Collection and Retention}
+%\subsection{Data Collection and Retention}
 
 Several research tools have been developed to collect and retain information across all layers of  a cloud~\cite{chaves2011toward,montes2013gmone,povedano2013dargos,alcaraz2015monpaas}.  The focus of these projects have been on specific end tools for users or administrators of the cloud. Meanwhile the primary goal of this part of our project is to develop a platform that can be used by a wide variety of tools. Specific limitations of these tools from a data collection and retention perspective include:  PCMONS~\cite{chaves2011toward}  which does not collect information needed to map virtual resources to physical resources. GMonE~\cite{montes2013gmone} is not appropriate for a general purpose IaaS cloud like the MOC because  it installs agents on each VM and a database for each user.  We are still evaluating what components and architectural elements from DARGOS~\cite{povedano2013dargos} can be used, although there is some concern about the non-scalable database. 
 
-Based on the different goals we are focused on, we believe that we will not be able to use all the aforementioned cloud monitoring tools. Instead we will be using a combination of layer specific monitoring tools. From our initial analysis, it seems clear that no one tool has the necessary combination of properties necessary for the project, and we expect to be using a combination of different tools. 
-
 Since MOC infrastructure relies heavily on OpenStack~\cite{sefraoui2012openstack}, we also plan to investigate monitoring solutions available in OpenStack. We will evaluate two tools, Ceilometer~\cite{ceilometer} and  StackTach~\cite{stacktach}, based on scalability and performance impact . Ceilometer is OpenStack’s metering solution and there are major concerns about its performance. Ceilometer stores its data in MongoDB~\cite{mongodb} by default. StackTach~\cite{stacktach} is not directly an OpenStack service, but still an alternative to Ceilometer for metering and billing.
-
-\subsection{Data Transformation and Visualization}
 
 There exists commercial solutions running on top of public clouds that visualize cloud usage. For example, Amazon CloudWatch is a monitoring service provided by Amazon. It can monitor virtual resources such as Amazon EC2 instances, Amazon DynamoDB tables, etc. but it does not provide monitoring of physical resources. 
 
